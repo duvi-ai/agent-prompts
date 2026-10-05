@@ -1,0 +1,21 @@
+{
+  "name": "agent-prompts",
+  "version": "1.0.0",
+  "description": "A tested system prompt for customer-facing AI agents on web chat, voice, WhatsApp and phone.",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src",
+    "prompts"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duvi-ai/agent-prompts.git"
+  }
+}
